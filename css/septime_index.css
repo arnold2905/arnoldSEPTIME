@@ -139,7 +139,10 @@ p {
 }
 
 .img-assiette {
-    background: url("../img/assiette.png");
+    background: url("../img/assiette.png") no-repeat;
+    object-position: center;
+    background-position: center;
+    background-size: 80%;
 }
 
 .img-resto-01 {
@@ -163,8 +166,32 @@ p {
 footer {
     height: 350px;
     text-align: center;
+    padding-bottom: 100px;
     margin: 0 auto;
-    background-color: lightcoral;
+    background-color: greenyellow;
+}
+
+footer h2 {
+    width: 500px;
+    margin: auto;
+    padding: 0;
+    line-height: 50px;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    letter-spacing: .5em;
+    line-height: 50px;
+}
+
+footer figcaption {
+    position: relative;
+    bottom: 100px;
+    font-weight: bold;
+}
+
+address {
+    font-family: serif;
+    font-style: smaller;
+    text-transform: uppercase;
 }
 
 .clear {
