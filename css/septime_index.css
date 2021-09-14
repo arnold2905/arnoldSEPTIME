@@ -36,6 +36,12 @@ time, mark, audio, video {
     margin: 0 auto;
     background-color: white;
 }
+
+.row {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
 header {
     text-align: center;
     width: 500px;
